@@ -1,0 +1,26 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1759572922665,1910,Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Jpetstore_Latest_v2 1-1,,true,,5664,693,1,1,null,0,110,1691
+1759572922770,1910,003 - /actions/Catalog.action (),200,,Jpetstore_Latest_v2 1-1,text,true,,5664,693,1,1,https://petstore.octoperf.com/actions/Catalog.action,1908,0,1691
+1759572924695,856,Login,200,"Number of samples in transaction : 3, number of failing samples : 0",Jpetstore_Latest_v2 1-1,,true,,14727,3940,1,1,null,0,11,0
+1759572924698,183,021 - /actions/Account.action;jsessionid=BF49D44EA8540FCE37C1A1D090F491C6 (),200,,Jpetstore_Latest_v2 1-1,text,true,,4097,872,1,1,https://petstore.octoperf.com/actions/Account.action;jsessionid=484F889A3342992AA1A64C4004232EEE?signonForm=,183,0,0
+1759572924884,491,023 - /actions/Account.action (),200,,Jpetstore_Latest_v2 1-1,text,true,,5430,2170,1,1,https://petstore.octoperf.com/actions/Catalog.action,200,0,0
+1759572924884,200,023 - /actions/Account.action ()-0,302,,Jpetstore_Latest_v2 1-1,,true,,230,1184,1,1,https://petstore.octoperf.com/actions/Account.action,200,0,0
+1759572925087,288,023 - /actions/Account.action ()-1,200,,Jpetstore_Latest_v2 1-1,text,true,,5200,986,1,1,https://petstore.octoperf.com/actions/Catalog.action,286,0,0
+1759572925378,182,024 - /actions/Catalog.action (),200,,Jpetstore_Latest_v2 1-1,text,true,,5200,898,1,1,https://petstore.octoperf.com/actions/Catalog.action,181,0,0
+1759572925563,178,Click on fish,200,"Number of samples in transaction : 1, number of failing samples : 0",Jpetstore_Latest_v2 1-1,,true,,4124,846,1,1,null,0,3,0
+1759572925564,178,026 - /actions/Catalog.action (),200,,Jpetstore_Latest_v2 1-1,text,true,,4124,846,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=FISH,178,0,0
+1759572925745,187,select product ID,200,"Number of samples in transaction : 1, number of failing samples : 0",Jpetstore_Latest_v2 1-1,,true,,4302,878,1,1,null,0,4,0
+1759572925747,187,030 - /actions/Catalog.action (),200,,Jpetstore_Latest_v2 1-1,text,true,,4302,878,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=FI-SW-01,186,0,0
+1759572925936,195,Add to cart,200,"Number of samples in transaction : 1, number of failing samples : 0",Jpetstore_Latest_v2 1-1,,true,,4865,880,1,1,null,0,2,0
+1759572925937,195,033 - /actions/Cart.action (),200,,Jpetstore_Latest_v2 1-1,text,true,,4865,880,1,1,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-1,194,0,0
+1759572926134,179,Preceed to checkout,200,"Number of samples in transaction : 1, number of failing samples : 0",Jpetstore_Latest_v2 1-1,,true,,5630,860,1,1,null,0,2,0
+1759572926135,179,036 - /actions/Order.action (),200,,Jpetstore_Latest_v2 1-1,text,true,,5630,860,1,1,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,177,0,0
+1759572926315,181,Click on continue,200,"Number of samples in transaction : 1, number of failing samples : 0",Jpetstore_Latest_v2 1-1,,true,,4771,1463,1,1,null,0,2,0
+1759572926316,181,038 - /actions/Order.action (),200,,Jpetstore_Latest_v2 1-1,text,true,,4771,1463,1,1,https://petstore.octoperf.com/actions/Order.action,180,0,0
+1759572926498,196,Click on confirm,200,"Number of samples in transaction : 1, number of failing samples : 0",Jpetstore_Latest_v2 1-1,,true,,5467,837,1,1,null,0,1,0
+1759572926499,196,039 - /actions/Order.action (),200,,Jpetstore_Latest_v2 1-1,text,true,,5467,837,1,1,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true,193,0,0
+1759572926696,592,Signout,200,"Number of samples in transaction : 2, number of failing samples : 0",Jpetstore_Latest_v2 1-1,,true,,10251,2526,1,1,null,0,4,0
+1759572926697,409,041 - /actions/Account.action (),200,,Jpetstore_Latest_v2 1-1,text,true,,5278,1687,1,1,https://petstore.octoperf.com/actions/Catalog.action,169,0,0
+1759572926697,169,041 - /actions/Account.action ()-0,302,,Jpetstore_Latest_v2 1-1,,true,,230,848,1,1,https://petstore.octoperf.com/actions/Account.action?signoff=,169,0,0
+1759572926867,239,041 - /actions/Account.action ()-1,200,,Jpetstore_Latest_v2 1-1,text,true,,5048,839,1,1,https://petstore.octoperf.com/actions/Catalog.action,238,0,0
+1759572927108,183,042 - /actions/Catalog.action (),200,,Jpetstore_Latest_v2 1-1,text,true,,4973,839,1,1,https://petstore.octoperf.com/actions/Catalog.action,181,0,0
